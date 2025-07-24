@@ -1,0 +1,8 @@
+{
+  "name": "PHP Dev",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.2-bullseye",
+  "forwardPorts": [80],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
