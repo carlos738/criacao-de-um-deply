@@ -1,8 +1,8 @@
 {
-  "name": "PHP Dev",
-  "image": "mcr.microsoft.com/devcontainers/php:1-8.2-bullseye",
-  "forwardPorts": [80],
+  "name": "PHP com Docker",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "docker-compose up --build"
 }
